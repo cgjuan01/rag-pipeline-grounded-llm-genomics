@@ -1,0 +1,23 @@
+# Core pipeline (retrieval + index) - required
+numpy>=1.24
+sentence-transformers>=2.2
+
+# MCP server - required for mcp_server.py
+mcp[cli]>=1.2
+
+# --- LLM backends: install only the one you use -----------------------------
+# ollama (default, local, free) - the client is optional; llm_backend.py falls
+# back to the REST endpoint at localhost:11434 via requests.
+requests>=2.31
+# ollama>=0.3
+
+# anthropic - needs ANTHROPIC_API_KEY
+# anthropic>=0.40
+
+# openai - needs OPENAI_API_KEY
+# openai>=1.30
+
+# transformers (in-process open-weight, e.g. Colab free GPU)
+# torch>=2.0
+# transformers>=4.40
+# accelerate>=0.28

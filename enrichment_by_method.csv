@@ -1,0 +1,27 @@
+method,reference_set,K,p_value,significant
+MR FDR set,Ying ageing-causal,fixed set,0.023,yes
+MR p-value rank,Ying ageing-causal,100,0.307,no
+MR p-value rank,Ying ageing-causal,150,0.505,no
+MR p-value rank,Ying ageing-causal,200,0.665,no
+MTI effect-size rank,Ying ageing-causal,100,0.307,no
+MTI effect-size rank,Ying ageing-causal,150,0.505,no
+MTI effect-size rank,Ying ageing-causal,200,0.665,no
+MLP no-graph baseline,Ying ageing-causal,100,0.024,yes
+MLP no-graph baseline,Ying ageing-causal,150,0.083,no
+MLP no-graph baseline,Ying ageing-causal,200,0.180,no
+GAT graph model,Ying ageing-causal,100,0.024,yes
+GAT graph model,Ying ageing-causal,150,0.024,yes
+GAT graph model,Ying ageing-causal,200,0.021,yes
+MR FDR set,MoTrPAC exercise-responsive,fixed set,0.969,no
+MR p-value rank,MoTrPAC exercise-responsive,100,0.971,no
+MR p-value rank,MoTrPAC exercise-responsive,150,0.994,no
+MR p-value rank,MoTrPAC exercise-responsive,200,0.985,no
+MTI effect-size rank,MoTrPAC exercise-responsive,100,0.839,no
+MTI effect-size rank,MoTrPAC exercise-responsive,150,0.793,no
+MTI effect-size rank,MoTrPAC exercise-responsive,200,0.953,no
+MLP no-graph baseline,MoTrPAC exercise-responsive,100,0.118,no
+MLP no-graph baseline,MoTrPAC exercise-responsive,150,0.212,no
+MLP no-graph baseline,MoTrPAC exercise-responsive,200,0.243,no
+GAT graph model,MoTrPAC exercise-responsive,100,0.007,yes
+GAT graph model,MoTrPAC exercise-responsive,150,0.014,yes
+GAT graph model,MoTrPAC exercise-responsive,200,0.071,no

@@ -1,0 +1,6 @@
+layer,tissue,dataset,sample_size,ancestry
+proteomic,plasma,UKBB Pharma Proteomics Project,54000,predominantly European
+epigenomic CpG methylation,whole blood,GoDMC,27750,European
+glycomic,plasma,TPNG GWAMA plasma N-glycome,10000,European
+bulk transcriptomic,whole blood,eQTLGen,31684,European
+single-cell transcriptomic,PBMCs,OneK1K,982,European
